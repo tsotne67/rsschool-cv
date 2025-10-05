@@ -25,13 +25,13 @@
 **Bachelor of Computer Science**  
 Caucasus University -_2023 - 2027_
 
---
+---
 
 ## About me
 
 I am pasionate Computer science student from Tbilisi . I want to become profesional front-end developer
 
---
+---
 
 # My code
 
