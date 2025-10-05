@@ -33,7 +33,38 @@ I am pasionate Computer science student from Tbilisi . I want to become profesio
 
 --
 
+# My code
 
+**Almost Prime Codeforces**
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int i, j, n, num[3005], ansx;
+
+int main() {
+    cin >> n;
+
+    for (i = 2; i <= n; i++) {
+        if (num[i] >= 1) continue;
+
+        for (j = 2 * i; j <= n; j += i) {
+            num[j] = num[j] + 1;
+        }
+    }
+
+    for (i = 2; i <= n; i++) {
+        if (num[i] == 2) ansx++;
+    }
+
+    cout << ansx << endl;
+
+    return 0;
+}
+```
+
+---
 
 ## Languages
 
